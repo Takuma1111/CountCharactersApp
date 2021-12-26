@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29F0FA9327785ADD00DBB1B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F0FA9227785ADD00DBB1B8 /* AppDelegate.swift */; };
+		29F0FA9527785ADD00DBB1B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F0FA9427785ADD00DBB1B8 /* SceneDelegate.swift */; };
+		29F0FA9727785ADD00DBB1B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F0FA9627785ADD00DBB1B8 /* ViewController.swift */; };
+		29F0FA9A27785ADD00DBB1B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F0FA9827785ADD00DBB1B8 /* Main.storyboard */; };
+		29F0FA9C27785ADF00DBB1B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F0FA9B27785ADF00DBB1B8 /* Assets.xcassets */; };
+		29F0FA9F27785ADF00DBB1B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F0FA9D27785ADF00DBB1B8 /* LaunchScreen.storyboard */; };
+		29F0FAAA27785AE000DBB1B8 /* Count_characters_Count_characters_CountCharactersAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F0FAA927785AE000DBB1B8 /* Count_characters_Count_characters_CountCharactersAppTests.swift */; };
+		29F0FAB527785AE000DBB1B8 /* Count_characters_Count_characters_CountCharactersAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F0FAB427785AE000DBB1B8 /* Count_characters_Count_characters_CountCharactersAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29F0FAA627785AE000DBB1B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29F0FA8727785ADD00DBB1B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29F0FA8E27785ADD00DBB1B8;
+			remoteInfo = "Count characters Count characters CountCharactersApp";
+		};
+		29F0FAB127785AE000DBB1B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29F0FA8727785ADD00DBB1B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29F0FA8E27785ADD00DBB1B8;
+			remoteInfo = "Count characters Count characters CountCharactersApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29F0FA8F27785ADD00DBB1B8 /* Count characters Count characters CountCharactersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Count characters Count characters CountCharactersApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F0FA9227785ADD00DBB1B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29F0FA9427785ADD00DBB1B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		29F0FA9627785ADD00DBB1B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29F0FA9927785ADD00DBB1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29F0FA9B27785ADF00DBB1B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29F0FA9E27785ADF00DBB1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29F0FAA027785ADF00DBB1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29F0FAA527785AE000DBB1B8 /* Count characters Count characters CountCharactersAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Count characters Count characters CountCharactersAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F0FAA927785AE000DBB1B8 /* Count_characters_Count_characters_CountCharactersAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count_characters_Count_characters_CountCharactersAppTests.swift; sourceTree = "<group>"; };
+		29F0FAAB27785AE000DBB1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29F0FAB027785AE000DBB1B8 /* Count characters Count characters CountCharactersAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Count characters Count characters CountCharactersAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F0FAB427785AE000DBB1B8 /* Count_characters_Count_characters_CountCharactersAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count_characters_Count_characters_CountCharactersAppUITests.swift; sourceTree = "<group>"; };
+		29F0FAB627785AE000DBB1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29F0FA8C27785ADD00DBB1B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F0FAA227785AE000DBB1B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F0FAAD27785AE000DBB1B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29F0FA8627785ADD00DBB1B8 = {
+			isa = PBXGroup;
+			children = (
+				29F0FA9127785ADD00DBB1B8 /* Count characters Count characters CountCharactersApp */,
+				29F0FAA827785AE000DBB1B8 /* Count characters Count characters CountCharactersAppTests */,
+				29F0FAB327785AE000DBB1B8 /* Count characters Count characters CountCharactersAppUITests */,
+				29F0FA9027785ADD00DBB1B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29F0FA9027785ADD00DBB1B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29F0FA8F27785ADD00DBB1B8 /* Count characters Count characters CountCharactersApp.app */,
+				29F0FAA527785AE000DBB1B8 /* Count characters Count characters CountCharactersAppTests.xctest */,
+				29F0FAB027785AE000DBB1B8 /* Count characters Count characters CountCharactersAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29F0FA9127785ADD00DBB1B8 /* Count characters Count characters CountCharactersApp */ = {
+			isa = PBXGroup;
+			children = (
+				29F0FA9227785ADD00DBB1B8 /* AppDelegate.swift */,
+				29F0FA9427785ADD00DBB1B8 /* SceneDelegate.swift */,
+				29F0FA9627785ADD00DBB1B8 /* ViewController.swift */,
+				29F0FA9827785ADD00DBB1B8 /* Main.storyboard */,
+				29F0FA9B27785ADF00DBB1B8 /* Assets.xcassets */,
+				29F0FA9D27785ADF00DBB1B8 /* LaunchScreen.storyboard */,
+				29F0FAA027785ADF00DBB1B8 /* Info.plist */,
+			);
+			path = "Count characters Count characters CountCharactersApp";
+			sourceTree = "<group>";
+		};
+		29F0FAA827785AE000DBB1B8 /* Count characters Count characters CountCharactersAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				29F0FAA927785AE000DBB1B8 /* Count_characters_Count_characters_CountCharactersAppTests.swift */,
+				29F0FAAB27785AE000DBB1B8 /* Info.plist */,
+			);
+			path = "Count characters Count characters CountCharactersAppTests";
+			sourceTree = "<group>";
+		};
+		29F0FAB327785AE000DBB1B8 /* Count characters Count characters CountCharactersAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29F0FAB427785AE000DBB1B8 /* Count_characters_Count_characters_CountCharactersAppUITests.swift */,
+				29F0FAB627785AE000DBB1B8 /* Info.plist */,
+			);
+			path = "Count characters Count characters CountCharactersAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29F0FA8E27785ADD00DBB1B8 /* Count characters Count characters CountCharactersApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29F0FAB927785AE000DBB1B8 /* Build configuration list for PBXNativeTarget "Count characters Count characters CountCharactersApp" */;
+			buildPhases = (
+				29F0FA8B27785ADD00DBB1B8 /* Sources */,
+				29F0FA8C27785ADD00DBB1B8 /* Frameworks */,
+				29F0FA8D27785ADD00DBB1B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Count characters Count characters CountCharactersApp";
+			productName = "Count characters Count characters CountCharactersApp";
+			productReference = 29F0FA8F27785ADD00DBB1B8 /* Count characters Count characters CountCharactersApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29F0FAA427785AE000DBB1B8 /* Count characters Count characters CountCharactersAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29F0FABC27785AE000DBB1B8 /* Build configuration list for PBXNativeTarget "Count characters Count characters CountCharactersAppTests" */;
+			buildPhases = (
+				29F0FAA127785AE000DBB1B8 /* Sources */,
+				29F0FAA227785AE000DBB1B8 /* Frameworks */,
+				29F0FAA327785AE000DBB1B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29F0FAA727785AE000DBB1B8 /* PBXTargetDependency */,
+			);
+			name = "Count characters Count characters CountCharactersAppTests";
+			productName = "Count characters Count characters CountCharactersAppTests";
+			productReference = 29F0FAA527785AE000DBB1B8 /* Count characters Count characters CountCharactersAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29F0FAAF27785AE000DBB1B8 /* Count characters Count characters CountCharactersAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29F0FABF27785AE000DBB1B8 /* Build configuration list for PBXNativeTarget "Count characters Count characters CountCharactersAppUITests" */;
+			buildPhases = (
+				29F0FAAC27785AE000DBB1B8 /* Sources */,
+				29F0FAAD27785AE000DBB1B8 /* Frameworks */,
+				29F0FAAE27785AE000DBB1B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29F0FAB227785AE000DBB1B8 /* PBXTargetDependency */,
+			);
+			name = "Count characters Count characters CountCharactersAppUITests";
+			productName = "Count characters Count characters CountCharactersAppUITests";
+			productReference = 29F0FAB027785AE000DBB1B8 /* Count characters Count characters CountCharactersAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29F0FA8727785ADD00DBB1B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					29F0FA8E27785ADD00DBB1B8 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					29F0FAA427785AE000DBB1B8 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 29F0FA8E27785ADD00DBB1B8;
+					};
+					29F0FAAF27785AE000DBB1B8 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 29F0FA8E27785ADD00DBB1B8;
+					};
+				};
+			};
+			buildConfigurationList = 29F0FA8A27785ADD00DBB1B8 /* Build configuration list for PBXProject "Count characters Count characters CountCharactersApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29F0FA8627785ADD00DBB1B8;
+			productRefGroup = 29F0FA9027785ADD00DBB1B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29F0FA8E27785ADD00DBB1B8 /* Count characters Count characters CountCharactersApp */,
+				29F0FAA427785AE000DBB1B8 /* Count characters Count characters CountCharactersAppTests */,
+				29F0FAAF27785AE000DBB1B8 /* Count characters Count characters CountCharactersAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29F0FA8D27785ADD00DBB1B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F0FA9F27785ADF00DBB1B8 /* LaunchScreen.storyboard in Resources */,
+				29F0FA9C27785ADF00DBB1B8 /* Assets.xcassets in Resources */,
+				29F0FA9A27785ADD00DBB1B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F0FAA327785AE000DBB1B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F0FAAE27785AE000DBB1B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29F0FA8B27785ADD00DBB1B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F0FA9727785ADD00DBB1B8 /* ViewController.swift in Sources */,
+				29F0FA9327785ADD00DBB1B8 /* AppDelegate.swift in Sources */,
+				29F0FA9527785ADD00DBB1B8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F0FAA127785AE000DBB1B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F0FAAA27785AE000DBB1B8 /* Count_characters_Count_characters_CountCharactersAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F0FAAC27785AE000DBB1B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F0FAB527785AE000DBB1B8 /* Count_characters_Count_characters_CountCharactersAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29F0FAA727785AE000DBB1B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29F0FA8E27785ADD00DBB1B8 /* Count characters Count characters CountCharactersApp */;
+			targetProxy = 29F0FAA627785AE000DBB1B8 /* PBXContainerItemProxy */;
+		};
+		29F0FAB227785AE000DBB1B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29F0FA8E27785ADD00DBB1B8 /* Count characters Count characters CountCharactersApp */;
+			targetProxy = 29F0FAB127785AE000DBB1B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29F0FA9827785ADD00DBB1B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29F0FA9927785ADD00DBB1B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29F0FA9D27785ADF00DBB1B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29F0FA9E27785ADF00DBB1B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29F0FAB727785AE000DBB1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29F0FAB827785AE000DBB1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29F0FABA27785AE000DBB1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MFF7GBV57;
+				INFOPLIST_FILE = "Count characters Count characters CountCharactersApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elpmas.Count-characters-Count-characters-CountCharactersApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29F0FABB27785AE000DBB1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MFF7GBV57;
+				INFOPLIST_FILE = "Count characters Count characters CountCharactersApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elpmas.Count-characters-Count-characters-CountCharactersApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29F0FABD27785AE000DBB1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MFF7GBV57;
+				INFOPLIST_FILE = "Count characters Count characters CountCharactersAppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elpmas.Count-characters-Count-characters-CountCharactersAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Count characters Count characters CountCharactersApp.app/Count characters Count characters CountCharactersApp";
+			};
+			name = Debug;
+		};
+		29F0FABE27785AE000DBB1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MFF7GBV57;
+				INFOPLIST_FILE = "Count characters Count characters CountCharactersAppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elpmas.Count-characters-Count-characters-CountCharactersAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Count characters Count characters CountCharactersApp.app/Count characters Count characters CountCharactersApp";
+			};
+			name = Release;
+		};
+		29F0FAC027785AE000DBB1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MFF7GBV57;
+				INFOPLIST_FILE = "Count characters Count characters CountCharactersAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elpmas.Count-characters-Count-characters-CountCharactersAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Count characters Count characters CountCharactersApp";
+			};
+			name = Debug;
+		};
+		29F0FAC127785AE000DBB1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MFF7GBV57;
+				INFOPLIST_FILE = "Count characters Count characters CountCharactersAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elpmas.Count-characters-Count-characters-CountCharactersAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Count characters Count characters CountCharactersApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29F0FA8A27785ADD00DBB1B8 /* Build configuration list for PBXProject "Count characters Count characters CountCharactersApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F0FAB727785AE000DBB1B8 /* Debug */,
+				29F0FAB827785AE000DBB1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29F0FAB927785AE000DBB1B8 /* Build configuration list for PBXNativeTarget "Count characters Count characters CountCharactersApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F0FABA27785AE000DBB1B8 /* Debug */,
+				29F0FABB27785AE000DBB1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29F0FABC27785AE000DBB1B8 /* Build configuration list for PBXNativeTarget "Count characters Count characters CountCharactersAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F0FABD27785AE000DBB1B8 /* Debug */,
+				29F0FABE27785AE000DBB1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29F0FABF27785AE000DBB1B8 /* Build configuration list for PBXNativeTarget "Count characters Count characters CountCharactersAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F0FAC027785AE000DBB1B8 /* Debug */,
+				29F0FAC127785AE000DBB1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29F0FA8727785ADD00DBB1B8 /* Project object */;
+}
