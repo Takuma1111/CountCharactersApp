@@ -15,6 +15,7 @@
 		29F0FA9F27785ADF00DBB1B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F0FA9D27785ADF00DBB1B8 /* LaunchScreen.storyboard */; };
 		29F0FAAA27785AE000DBB1B8 /* Count_characters_Count_characters_CountCharactersAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F0FAA927785AE000DBB1B8 /* Count_characters_Count_characters_CountCharactersAppTests.swift */; };
 		29F0FAB527785AE000DBB1B8 /* Count_characters_Count_characters_CountCharactersAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F0FAB427785AE000DBB1B8 /* Count_characters_Count_characters_CountCharactersAppUITests.swift */; };
+		29F0FAC327785B5D00DBB1B8 /* CountCharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F0FAC227785B5D00DBB1B8 /* CountCharactersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		29F0FAB027785AE000DBB1B8 /* Count characters Count characters CountCharactersAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Count characters Count characters CountCharactersAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F0FAB427785AE000DBB1B8 /* Count_characters_Count_characters_CountCharactersAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count_characters_Count_characters_CountCharactersAppUITests.swift; sourceTree = "<group>"; };
 		29F0FAB627785AE000DBB1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29F0FAC227785B5D00DBB1B8 /* CountCharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountCharactersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				29F0FA9B27785ADF00DBB1B8 /* Assets.xcassets */,
 				29F0FA9D27785ADF00DBB1B8 /* LaunchScreen.storyboard */,
 				29F0FAA027785ADF00DBB1B8 /* Info.plist */,
+				29F0FAC227785B5D00DBB1B8 /* CountCharactersViewController.swift */,
 			);
 			path = "Count characters Count characters CountCharactersApp";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				29F0FA9727785ADD00DBB1B8 /* ViewController.swift in Sources */,
 				29F0FA9327785ADD00DBB1B8 /* AppDelegate.swift in Sources */,
+				29F0FAC327785B5D00DBB1B8 /* CountCharactersViewController.swift in Sources */,
 				29F0FA9527785ADD00DBB1B8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
